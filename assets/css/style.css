@@ -1,0 +1,153 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.content-wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+.content-wrapper::before {
+	content: "";
+	display: table;
+}
+.content-wrapper::after {
+	clear: both;
+}
+.container-header {
+	width: 100%
+	margin: 0 auto 0 auto;
+	position: relative;
+	background: #ffffff;
+}
+.container-content {
+	background-image: url(texturetastic_gray.png);
+	background: lightgrey;
+	clear: both;
+	width: 100%;
+	left: 0px;
+	height: 1000px;
+	margin: 0 auto 0 auto;
+	position: relative;
+	border-top: 3px solid #dddddd;
+}
+header {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background: #4aaaa5;
+	padding: 20px;
+	width: 200px;
+	float: left;
+	border: 1px solid #cccccc;
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+}
+nav {
+	float: right;
+	background: #ffffff;
+	padding: 20px;
+}
+.container1 {
+	float: left;
+	width: 650px;
+	color: #777777;
+	background: #ffffff;
+	margin-top: 30px;
+	position: relative;
+}
+.container2 {
+	float: right;
+	width: 270px;
+	text-align: center;
+	background: #ffffff;
+	height: 150px;
+	margin-top: 30px;
+	color: #4aaaa5;
+	font-size: 18px;
+	font-weight: bold;
+}
+h1 {
+	clear: both;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	margin-left: 10px;
+	font-size: 25px;
+	padding: 20px;
+}
+#myPic {
+	float: left;
+	margin-right: 10px;
+	padding-left: 10px;
+}
+p {
+	margin-right: 10px;
+	padding-left: 10px;
+	background: #ffffff;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.input {
+	width: 100%;
+}
+.v1 {
+	border-right: solid medium lightgrey;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+hr {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+form {
+	margin-left: 30px;
+	margin-right: 10px;
+	margin-bottom: 30px;
+	line-height: 1.5;
+}
+textarea {
+	height: 150px;
+}
+.submit {
+	background: #4aaaa5;
+	font-size: 15px;
+}
+.container_image {
+	position: relative;
+	width: 250px;
+	height: 200px;
+	float: left;
+	margin: 35px;
+}
+.container_image img {
+	display: block;
+	width: 100%;
+}
+.container_image .banner {
+	position: absolute;
+	bottom: 20px;
+	height: 10px;
+	background: #4aaaa5;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	color: white;
+	line-height: 30px;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	background-color: #666666;
+	border-top: 3px solid #4aaaa5;
+	padding: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
