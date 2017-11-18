@@ -26,8 +26,8 @@ body {
 	background: #ffffff;
 }
 .container-content {
-	background-image: url(texturetastic_gray.png);
-	background: lightgrey;
+	background-image: url("../images/texturetastic_gray.png");
+	/*background: lightgrey;*/
 	clear: both;
 	width: 100%;
 	left: 0px;
